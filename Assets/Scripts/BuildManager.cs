@@ -1,11 +1,10 @@
-using System;
 using UnityEngine;
 
 public class BuildManager : MonoBehaviour
 {
     public static BuildManager instance;
     public GameObject standardTurretPrefab;
-    public GameObject anotherTurretPrefab;
+    public GameObject missileLauncherPrefab;
     
     private GameObject turretToBuild;
     
